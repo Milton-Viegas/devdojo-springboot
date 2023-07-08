@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07ecd001-3f3c-45dd-ad98-c708a32dae16" name="Changes" comment="add pack util">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br.com.devdojo/ApplicationStartTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/endpoint/StudentEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/endpoint/StudentEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/start/ApplicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/ApplicationStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/ApplicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/ApplicationStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/endpoint/StudentEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/endpoint/StudentEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devdojo/awesome/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devdojo/util/DateUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0f13f19a-5056-4339-96c2-cbc7545aa4b0" />
+        <option name="url" value="https://github.com/Milton-Viegas/devdojo-springboot.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,13 +67,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/milto/GitHub/devdojo-springboot",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29655173",
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ApplicationStart">
+  <component name="RunManager" selected="Application.br.com.devdojo.ApplicationStart">
     <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.devdojo.awesome.ApplicationStart" />
       <module name="devdojo-springboot" />
@@ -86,8 +101,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="br.com.devdojo.ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.devdojo.ApplicationStart" />
+      <module name="devdojo-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.devdojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationStartTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devdojo-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.devdojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.devdojo" />
+      <option name="MAIN_CLASS_NAME" value="br.com.devdojo.ApplicationStartTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.com.devdojo.ApplicationStart" />
+        <item itemvalue="JUnit.ApplicationStartTests" />
         <item itemvalue="Application.ApplicationStart" />
         <item itemvalue="Application.Main" />
       </list>
